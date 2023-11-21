@@ -39,16 +39,8 @@ body {
 .eye {
   height: var(--eye-size);
   width: var(--eye-size);
-  /* background-color: var(--eye-backcolor); */
-  background-color: #66836a;
-  border: 6px solid var(--eye-color);
-  position: relative;
-}
-.eye:hover {
-  height: var(--eye-size);
-  width: var(--eye-size);
   background-color: var(--eye-backcolor);
-  border: 6px solid var(--eye-color);
+  border: 4px solid var(--eye-color);
   position: relative;
 }
 
