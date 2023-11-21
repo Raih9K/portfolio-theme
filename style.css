@@ -17,16 +17,6 @@ body {
   background: black;
 }
 
-.card {
-  width: 300px;
-  height: 300px;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
 .circle {
   border-radius: 50%;
 }
@@ -312,11 +302,10 @@ body {
 
 .box {
   overflow: hidden;
-  height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px auto;
+  margin: 220px auto;
 }
 
 .eye-box {
@@ -330,9 +319,9 @@ body {
   margin: auto 40px;
   justify-content: center;
   align-items: center;
-  border-radius: 100% 0 54% 46% / 93% 1% 99% 7%;
+  border-radius: 100% 0 54% 46% / 93% 1% 99% 50%;
   box-shadow: -4px 21px 1px 6px var(--eye-shadow) inset;
-  animation: eye_animation 16s ease-in-out infinite;
+  animation: eye_animation 2s ease-in-out;
   transition: height 0.5s ease-in-out, padding-top 0.5s ease-in-out;
 }
 
