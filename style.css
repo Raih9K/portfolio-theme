@@ -40,7 +40,7 @@ body {
   height: var(--eye-size);
   width: var(--eye-size);
   background-color: var(--eye-backcolor);
-  border: 4px solid var(--eye-color);
+  border: 6px solid var(--eye-color);
   position: relative;
 }
 
@@ -312,11 +312,11 @@ body {
 
 .box {
   overflow: hidden;
-  /* height: 300px; */
+  height: 250px;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  margin-top: 250px;
+  align-items: center;
+  margin: 40px auto;
 }
 
 .eye-box {
@@ -330,9 +330,9 @@ body {
   margin: auto 40px;
   justify-content: center;
   align-items: center;
-  border-radius: 103% 0 54% 46% / 95% 1% 61% 34%;
+  border-radius: 100% 0 54% 46% / 93% 1% 99% 7%;
   box-shadow: -4px 21px 1px 6px var(--eye-shadow) inset;
-  animation: eye_animation 3s ease-in-out;
+  animation: eye_animation 16s ease-in-out infinite;
   transition: height 0.5s ease-in-out, padding-top 0.5s ease-in-out;
 }
 
@@ -358,20 +358,6 @@ body {
   }
   43%,
   47% {
-    height: 0;
-    padding: 0;
-  }
-} /*ANIMATIONS EYE OPEN CLOSE*/
-
-@keyframes eye_animation {
-  0%,
-  20%,
-  100% {
-    height: 130px;
-    padding-top: 20px;
-  }
-  40%,
-  60% {
     height: 0;
     padding: 0;
   }
