@@ -81,3 +81,113 @@
     ],
     "tabnine.experimentalAutoImports": true
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/new 
+{
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Fira Code, Kohinoor Bangla, 'Courier   New', monospace",
+    "editor.fontLigatures": true,
+    "files.autoSave": "afterDelay",
+    "editor.cursorBlinking": "phase",
+    "editor.wordWrap": "on",
+    "explorer.confirmDelete": false,
+    "php.suggest.basic": true,
+    "php.validate.enable": true,
+    "emmet.excludeLanguages": [
+        "markdown",
+        "php"
+    ],
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.tokenColorCustomizations": {},
+    "files.associations": {
+        "*.php": "php"
+    },
+    "editor.codeActionsOnSave": {},
+    "editor.codeLensFontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontWeight": "normal",
+    "todo-tree.highlights.defaultHighlight": {},
+    "editor.formatOnType": true,
+    "html.format.unformatted": "wbr",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "html.format.contentUnformatted": "",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "phpserver.router": "",
+    "json.schemas": [],
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html",
+        "razor": "html",
+        "plaintext": "jade",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "phpserver.browser": "",
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.settings.applyToAllProfiles": [],
+    "git.autofetch": true,
+    "GithubGistExplorer.explorer.gistSortBy": "Last Updated",
+    "GithubGistExplorer.explorer.gistAscending": false,
+    "GithubGistExplorer.explorer.subscriptionSortBy": "Last Updated",
+    "GithubGistExplorer.explorer.subscriptionAscending": false,
+    "vscode-edge-devtools.webhintInstallNotification": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.wait": 5,
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "html-css-class-completion.CSSLanguages": [
+        "css",
+        "sass",
+        "scss"
+    ],
+    "tabnine.experimentalAutoImports": true,
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Visual Studio Light"
+}
